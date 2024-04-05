@@ -21,7 +21,6 @@ public class BOJ_5340 {
             sb = new StringBuilder();
             String[] str = br.readLine().split("");
             int num = Integer.parseInt(br.readLine());
-
             String arrStr = br.readLine();
             for (String s : arrStr.substring(1, arrStr.length() - 1).split(","))
                 if (!s.equals(""))
